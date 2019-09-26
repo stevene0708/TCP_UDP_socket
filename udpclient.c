@@ -26,7 +26,7 @@ int main(int argc, char* argv[]){
 	byte_sent = sendto(sock, buffer, sizeof(buffer), 0, (struct sockaddr*)&address, address_length);
 	if (byte_sent < 0) printf("Error sending packet\n");
 
-	byte_recv = recvfrom(sock, buffer_1, sizeof(buffer), 0, (struct sockaddr*)&address, &address_length);
+	byte_recv = recvfrom(sock, buffer_1, sizeof(buffer_1), 0, (struct sockaddr*)&address, &address_length);
 	if (byte_recv < 0) printf("Error sending packet\n");
 	printf("packet content: %s\n", buffer_1);
 	close(sock);
