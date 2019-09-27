@@ -9,7 +9,7 @@
 #define portnumber 5555
 
 int main(int argc, char* argv[]){
-	struct sockaddr_in address, client_address;
+	struct sockaddr_in address;// , client_address;
 	int sock, byte_recv, byte_sent, client_address_length;
 	char buffer[50], buffer_1[] = "Welcome!\n";
 
@@ -28,15 +28,15 @@ int main(int argc, char* argv[]){
 	int address_length = sizeof(address);
 	
 	while(1){
-		byte_recv = recvfrom(sock, buffer, sizeof(buffer), 0, (struct sockaddr*)&client_address, &client_address_length);
+		byte_recv = recvfrom(sock, buffer, sizeof(buffer), 0, (struct sockaddr*)&address, &address_length);
 		if (byte_recv < 0) printf("Error recving packet\n");
 		printf("data: %s\n", buffer);
 
-		byte_sent = sendto(sock, buffer_1, sizeof(buffer_1), 0, (struct sockaddr*)&client_address, client_address_length);
+		byte_sent = sendto(sock, buffer_1, sizeof(buffer_1), 0, (struct sockaddr*)&address, address_length);
                
 
 
 	}
-	close(sock);
+
 	return 0;
 }
