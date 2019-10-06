@@ -21,7 +21,7 @@ int main(int argc, char *argv[]){
 
 	sock = socket(PF_INET, SOCK_STREAM, 0);
 	if (sock < 0)
-		printf("Erroer creating socket!\n");
+		printf("Error creating socket!\n");
 
 	bzero(&server_addr, server_addr_length);
 	server_addr.sin_family = AF_INET;
@@ -29,8 +29,9 @@ int main(int argc, char *argv[]){
 	server_addr.sin_addr.s_addr = inet_addr(server_address);
 
 	if (connect(sock, (struct sockaddr *)&server_addr, server_addr_length) == -1){
-		printf("connect failed!");
+		printf("connect failed!\n");
 		close(sock);
+		return 0;
 	}
 
 	byte_recv = recv(sock, buffer_1, sizeof(buffer_1), 0);
@@ -51,18 +52,17 @@ int main(int argc, char *argv[]){
 	printf("Latency: %ld(us)\n", diff);
 	printf("Throughput: %.3f(mb/s)\n", data_t);
 
-
 	byte_sent = send(sock, buffer, sizeof(buffer), 0);
 	gettimeofday(&sec_send, NULL);
 	if (byte_sent < 0) printf("Error sending packet!\n");
 
 	sprintf(temp_1, "%ld", sec_send.tv_sec);
 	byte_sent = send(sock, temp_1, sizeof(temp_1), 0);
-	if (byte_sent < 0) printf("Error \n");
+	if (byte_sent < 0) printf("Error sending packet!\n");
 
 	sprintf(temp_1, "%ld", sec_send.tv_usec);
 	byte_sent = send(sock, temp_1, sizeof(temp_1), 0);
-	if (byte_sent < 0) printf("Error \n");
+	if (byte_sent < 0) printf("Error sending packet!\n");
 
 	close(sock);
 	return 0;
