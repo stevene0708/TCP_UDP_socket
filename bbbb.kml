@@ -1,0 +1,4392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>GPS device</name>
+    <snippet>Created 週五 六月 12 18:35:16 2020</snippet>
+    <LookAt>
+      <longitude>121.534780</longitude>
+      <latitude>25.119550</latitude>
+      <range>4930.511395</range>
+    </LookAt>
+    <!-- Normal track style -->
+    <Style id="track_n">
+      <IconStyle>
+        <scale>.5</scale>
+        <Icon>
+          <href>https://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <!-- Highlighted track style -->
+    <Style id="track_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="track">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#track_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#track_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <!-- Normal waypoint style -->
+    <Style id="waypoint_n">
+      <IconStyle>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <!-- Highlighted waypoint style -->
+    <Style id="waypoint_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#waypoint_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#waypoint_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="lineStyle">
+      <LineStyle>
+        <color>99ffac59</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>Tracks</name>
+      <Folder>
+        <name>單車百岳：天母上陽明山（文大後山）</name>
+        <snippet/>
+        <description>
+<![CDATA[<table>
+<tr><td><b>Distance</b> 4.0 mi </td></tr>
+<tr><td><b>Min Alt</b> 37.303 ft </td></tr>
+<tr><td><b>Max Alt</b> 1329.298 ft </td></tr>
+</table>]]>
+</description>
+        <Folder>
+          <name>Points</name>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-0</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.526690 </td></tr>
+<tr><td>Latitude: 25.104170 </td></tr>
+<tr><td>Altitude: 58.596 ft </td></tr>
+<tr><td>Heading: 61.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.526690</longitude>
+              <latitude>25.104170</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.526690,25.104170,17.86</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-1</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.527225 </td></tr>
+<tr><td>Latitude: 25.104380 </td></tr>
+<tr><td>Altitude: 59.777 ft </td></tr>
+<tr><td>Heading: 66.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.527225</longitude>
+              <latitude>25.104380</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.527225,25.104380,18.22</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-2</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.527760 </td></tr>
+<tr><td>Latitude: 25.104590 </td></tr>
+<tr><td>Altitude: 60.728 ft </td></tr>
+<tr><td>Heading: 66.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.527760</longitude>
+              <latitude>25.104590</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.527760,25.104590,18.51</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-3</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.528140 </td></tr>
+<tr><td>Latitude: 25.104800 </td></tr>
+<tr><td>Altitude: 60.531 ft </td></tr>
+<tr><td>Heading: 58.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.528140</longitude>
+              <latitude>25.104800</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.528140,25.104800,18.45</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-4</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.528610 </td></tr>
+<tr><td>Latitude: 25.105160 </td></tr>
+<tr><td>Altitude: 56.266 ft </td></tr>
+<tr><td>Heading: 49.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.528610</longitude>
+              <latitude>25.105160</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.528610,25.105160,17.15</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-5</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.529070 </td></tr>
+<tr><td>Latitude: 25.105580 </td></tr>
+<tr><td>Altitude: 50.886 ft </td></tr>
+<tr><td>Heading: 44.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.529070</longitude>
+              <latitude>25.105580</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.529070,25.105580,15.51</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-6</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.529330 </td></tr>
+<tr><td>Latitude: 25.105860 </td></tr>
+<tr><td>Altitude: 54.823 ft </td></tr>
+<tr><td>Heading: 40.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.529330</longitude>
+              <latitude>25.105860</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.529330,25.105860,16.71</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-7</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.529800 </td></tr>
+<tr><td>Latitude: 25.106540 </td></tr>
+<tr><td>Altitude: 52.493 ft </td></tr>
+<tr><td>Heading: 32.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.529800</longitude>
+              <latitude>25.106540</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.529800,25.106540,16.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-8</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.529985 </td></tr>
+<tr><td>Latitude: 25.106960 </td></tr>
+<tr><td>Altitude: 52.559 ft </td></tr>
+<tr><td>Heading: 21.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.529985</longitude>
+              <latitude>25.106960</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.529985,25.106960,16.02</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-9</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.530170 </td></tr>
+<tr><td>Latitude: 25.107380 </td></tr>
+<tr><td>Altitude: 52.625 ft </td></tr>
+<tr><td>Heading: 21.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.530170</longitude>
+              <latitude>25.107380</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.530170,25.107380,16.04</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-10</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.530250 </td></tr>
+<tr><td>Latitude: 25.107670 </td></tr>
+<tr><td>Altitude: 51.608 ft </td></tr>
+<tr><td>Heading: 14.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.530250</longitude>
+              <latitude>25.107670</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.530250,25.107670,15.73</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-11</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.530380 </td></tr>
+<tr><td>Latitude: 25.108390 </td></tr>
+<tr><td>Altitude: 59.777 ft </td></tr>
+<tr><td>Heading: 9.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.530380</longitude>
+              <latitude>25.108390</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.530380,25.108390,18.22</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-12</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.530510 </td></tr>
+<tr><td>Latitude: 25.109110 </td></tr>
+<tr><td>Altitude: 52.133 ft </td></tr>
+<tr><td>Heading: 9.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.530510</longitude>
+              <latitude>25.109110</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.530510,25.109110,15.89</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-13</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.530600 </td></tr>
+<tr><td>Latitude: 25.109760 </td></tr>
+<tr><td>Altitude: 56.660 ft </td></tr>
+<tr><td>Heading: 7.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.530600</longitude>
+              <latitude>25.109760</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.530600,25.109760,17.27</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-14</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.530690 </td></tr>
+<tr><td>Latitude: 25.110410 </td></tr>
+<tr><td>Altitude: 78.346 ft </td></tr>
+<tr><td>Heading: 7.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.530690</longitude>
+              <latitude>25.110410</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.530690,25.110410,23.88</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-15</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.530780 </td></tr>
+<tr><td>Latitude: 25.111060 </td></tr>
+<tr><td>Altitude: 50.591 ft </td></tr>
+<tr><td>Heading: 7.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.530780</longitude>
+              <latitude>25.111060</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.530780,25.111060,15.42</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-16</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.530920 </td></tr>
+<tr><td>Latitude: 25.111850 </td></tr>
+<tr><td>Altitude: 49.541 ft </td></tr>
+<tr><td>Heading: 9.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.530920</longitude>
+              <latitude>25.111850</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.530920,25.111850,15.10</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-17</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.531150 </td></tr>
+<tr><td>Latitude: 25.112410 </td></tr>
+<tr><td>Altitude: 49.541 ft </td></tr>
+<tr><td>Heading: 20.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.531150</longitude>
+              <latitude>25.112410</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.531150,25.112410,15.10</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-18</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.531350 </td></tr>
+<tr><td>Latitude: 25.112400 </td></tr>
+<tr><td>Altitude: 46.555 ft </td></tr>
+<tr><td>Heading: 93.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.531350</longitude>
+              <latitude>25.112400</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.531350,25.112400,14.19</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-19</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.531920 </td></tr>
+<tr><td>Latitude: 25.112480 </td></tr>
+<tr><td>Altitude: 42.749 ft </td></tr>
+<tr><td>Heading: 81.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.531920</longitude>
+              <latitude>25.112480</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.531920,25.112480,13.03</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-20</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.532490 </td></tr>
+<tr><td>Latitude: 25.112560 </td></tr>
+<tr><td>Altitude: 43.471 ft </td></tr>
+<tr><td>Heading: 81.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.532490</longitude>
+              <latitude>25.112560</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.532490,25.112560,13.25</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-21</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.533457 </td></tr>
+<tr><td>Latitude: 25.112687 </td></tr>
+<tr><td>Altitude: 41.404 ft </td></tr>
+<tr><td>Heading: 81.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.533457</longitude>
+              <latitude>25.112687</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.533457,25.112687,12.62</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-22</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.534423 </td></tr>
+<tr><td>Latitude: 25.112813 </td></tr>
+<tr><td>Altitude: 45.243 ft </td></tr>
+<tr><td>Heading: 81.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.534423</longitude>
+              <latitude>25.112813</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.534423,25.112813,13.79</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-23</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.535390 </td></tr>
+<tr><td>Latitude: 25.112940 </td></tr>
+<tr><td>Altitude: 49.967 ft </td></tr>
+<tr><td>Heading: 81.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.535390</longitude>
+              <latitude>25.112940</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.535390,25.112940,15.23</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-24</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.535820 </td></tr>
+<tr><td>Latitude: 25.113040 </td></tr>
+<tr><td>Altitude: 42.421 ft </td></tr>
+<tr><td>Heading: 75.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.535820</longitude>
+              <latitude>25.113040</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.535820,25.113040,12.93</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-25</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536553 </td></tr>
+<tr><td>Latitude: 25.113227 </td></tr>
+<tr><td>Altitude: 61.614 ft </td></tr>
+<tr><td>Heading: 74.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536553</longitude>
+              <latitude>25.113227</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536553,25.113227,18.78</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-26</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.537287 </td></tr>
+<tr><td>Latitude: 25.113413 </td></tr>
+<tr><td>Altitude: 37.303 ft </td></tr>
+<tr><td>Heading: 74.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.537287</longitude>
+              <latitude>25.113413</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.537287,25.113413,11.37</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-27</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538020 </td></tr>
+<tr><td>Latitude: 25.113600 </td></tr>
+<tr><td>Altitude: 60.630 ft </td></tr>
+<tr><td>Heading: 74.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538020</longitude>
+              <latitude>25.113600</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538020,25.113600,18.48</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-28</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538660 </td></tr>
+<tr><td>Latitude: 25.113770 </td></tr>
+<tr><td>Altitude: 62.270 ft </td></tr>
+<tr><td>Heading: 73.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538660</longitude>
+              <latitude>25.113770</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538660,25.113770,18.98</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-29</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539010 </td></tr>
+<tr><td>Latitude: 25.113850 </td></tr>
+<tr><td>Altitude: 60.007 ft </td></tr>
+<tr><td>Heading: 75.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539010</longitude>
+              <latitude>25.113850</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539010,25.113850,18.29</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-30</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539190 </td></tr>
+<tr><td>Latitude: 25.113940 </td></tr>
+<tr><td>Altitude: 59.285 ft </td></tr>
+<tr><td>Heading: 61.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539190</longitude>
+              <latitude>25.113940</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539190,25.113940,18.07</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-31</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539140 </td></tr>
+<tr><td>Latitude: 25.114660 </td></tr>
+<tr><td>Altitude: 66.207 ft </td></tr>
+<tr><td>Heading: 356.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539140</longitude>
+              <latitude>25.114660</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539140,25.114660,20.18</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-32</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539085 </td></tr>
+<tr><td>Latitude: 25.115535 </td></tr>
+<tr><td>Altitude: 65.617 ft </td></tr>
+<tr><td>Heading: 356.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539085</longitude>
+              <latitude>25.115535</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539085,25.115535,20.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-33</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539030 </td></tr>
+<tr><td>Latitude: 25.116410 </td></tr>
+<tr><td>Altitude: 82.021 ft </td></tr>
+<tr><td>Heading: 356.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539030</longitude>
+              <latitude>25.116410</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539030,25.116410,25.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-34</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539300 </td></tr>
+<tr><td>Latitude: 25.116430 </td></tr>
+<tr><td>Altitude: 98.163 ft </td></tr>
+<tr><td>Heading: 85.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539300</longitude>
+              <latitude>25.116430</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539300,25.116430,29.92</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-35</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539490 </td></tr>
+<tr><td>Latitude: 25.116470 </td></tr>
+<tr><td>Altitude: 107.907 ft </td></tr>
+<tr><td>Heading: 76.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539490</longitude>
+              <latitude>25.116470</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539490,25.116470,32.89</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-36</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539590 </td></tr>
+<tr><td>Latitude: 25.116540 </td></tr>
+<tr><td>Altitude: 112.697 ft </td></tr>
+<tr><td>Heading: 52.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539590</longitude>
+              <latitude>25.116540</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539590,25.116540,34.35</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-37</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539660 </td></tr>
+<tr><td>Latitude: 25.116690 </td></tr>
+<tr><td>Altitude: 117.651 ft </td></tr>
+<tr><td>Heading: 22.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539660</longitude>
+              <latitude>25.116690</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539660,25.116690,35.86</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-38</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539790 </td></tr>
+<tr><td>Latitude: 25.117060 </td></tr>
+<tr><td>Altitude: 136.385 ft </td></tr>
+<tr><td>Heading: 17.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539790</longitude>
+              <latitude>25.117060</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539790,25.117060,41.57</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-39</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539750 </td></tr>
+<tr><td>Latitude: 25.117160 </td></tr>
+<tr><td>Altitude: 141.929 ft </td></tr>
+<tr><td>Heading: 340.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539750</longitude>
+              <latitude>25.117160</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539750,25.117160,43.26</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-40</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539630 </td></tr>
+<tr><td>Latitude: 25.117320 </td></tr>
+<tr><td>Altitude: 149.869 ft </td></tr>
+<tr><td>Heading: 325.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539630</longitude>
+              <latitude>25.117320</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539630,25.117320,45.68</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-41</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539590 </td></tr>
+<tr><td>Latitude: 25.117430 </td></tr>
+<tr><td>Altitude: 157.087 ft </td></tr>
+<tr><td>Heading: 341.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539590</longitude>
+              <latitude>25.117430</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539590,25.117430,47.88</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-42</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539660 </td></tr>
+<tr><td>Latitude: 25.117570 </td></tr>
+<tr><td>Altitude: 164.534 ft </td></tr>
+<tr><td>Heading: 24.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539660</longitude>
+              <latitude>25.117570</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539660,25.117570,50.15</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-43</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539740 </td></tr>
+<tr><td>Latitude: 25.117630 </td></tr>
+<tr><td>Altitude: 167.454 ft </td></tr>
+<tr><td>Heading: 50.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539740</longitude>
+              <latitude>25.117630</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539740,25.117630,51.04</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-44</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540350 </td></tr>
+<tr><td>Latitude: 25.117920 </td></tr>
+<tr><td>Altitude: 196.194 ft </td></tr>
+<tr><td>Heading: 62.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540350</longitude>
+              <latitude>25.117920</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540350,25.117920,59.80</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-45</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540700 </td></tr>
+<tr><td>Latitude: 25.118200 </td></tr>
+<tr><td>Altitude: 202.920 ft </td></tr>
+<tr><td>Heading: 48.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540700</longitude>
+              <latitude>25.118200</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540700,25.118200,61.85</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-46</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541140 </td></tr>
+<tr><td>Latitude: 25.118440 </td></tr>
+<tr><td>Altitude: 213.615 ft </td></tr>
+<tr><td>Heading: 58.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541140</longitude>
+              <latitude>25.118440</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541140,25.118440,65.11</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-47</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541560 </td></tr>
+<tr><td>Latitude: 25.118540 </td></tr>
+<tr><td>Altitude: 224.147 ft </td></tr>
+<tr><td>Heading: 75.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541560</longitude>
+              <latitude>25.118540</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541560,25.118540,68.32</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-48</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541860 </td></tr>
+<tr><td>Latitude: 25.118560 </td></tr>
+<tr><td>Altitude: 231.463 ft </td></tr>
+<tr><td>Heading: 85.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541860</longitude>
+              <latitude>25.118560</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541860,25.118560,70.55</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-49</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542180 </td></tr>
+<tr><td>Latitude: 25.118560 </td></tr>
+<tr><td>Altitude: 243.570 ft </td></tr>
+<tr><td>Heading: 90.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542180</longitude>
+              <latitude>25.118560</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542180,25.118560,74.24</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-50</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542290 </td></tr>
+<tr><td>Latitude: 25.118610 </td></tr>
+<tr><td>Altitude: 247.014 ft </td></tr>
+<tr><td>Heading: 63.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542290</longitude>
+              <latitude>25.118610</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542290,25.118610,75.29</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-51</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542430 </td></tr>
+<tr><td>Latitude: 25.118730 </td></tr>
+<tr><td>Altitude: 252.657 ft </td></tr>
+<tr><td>Heading: 46.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542430</longitude>
+              <latitude>25.118730</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542430,25.118730,77.01</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-52</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542520 </td></tr>
+<tr><td>Latitude: 25.118900 </td></tr>
+<tr><td>Altitude: 265.026 ft </td></tr>
+<tr><td>Heading: 25.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542520</longitude>
+              <latitude>25.118900</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542520,25.118900,80.78</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-53</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542600 </td></tr>
+<tr><td>Latitude: 25.119330 </td></tr>
+<tr><td>Altitude: 280.676 ft </td></tr>
+<tr><td>Heading: 9.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542600</longitude>
+              <latitude>25.119330</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542600,25.119330,85.55</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-54</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542630 </td></tr>
+<tr><td>Latitude: 25.119400 </td></tr>
+<tr><td>Altitude: 286.188 ft </td></tr>
+<tr><td>Heading: 21.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542630</longitude>
+              <latitude>25.119400</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542630,25.119400,87.23</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-55</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542830 </td></tr>
+<tr><td>Latitude: 25.119700 </td></tr>
+<tr><td>Altitude: 300.591 ft </td></tr>
+<tr><td>Heading: 31.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542830</longitude>
+              <latitude>25.119700</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542830,25.119700,91.62</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-56</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542870 </td></tr>
+<tr><td>Latitude: 25.119790 </td></tr>
+<tr><td>Altitude: 304.199 ft </td></tr>
+<tr><td>Heading: 21.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542870</longitude>
+              <latitude>25.119790</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542870,25.119790,92.72</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-57</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542820 </td></tr>
+<tr><td>Latitude: 25.119940 </td></tr>
+<tr><td>Altitude: 309.186 ft </td></tr>
+<tr><td>Heading: 343.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542820</longitude>
+              <latitude>25.119940</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542820,25.119940,94.24</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-58</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542550 </td></tr>
+<tr><td>Latitude: 25.120390 </td></tr>
+<tr><td>Altitude: 329.593 ft </td></tr>
+<tr><td>Heading: 331.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542550</longitude>
+              <latitude>25.120390</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542550,25.120390,100.46</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-59</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542480 </td></tr>
+<tr><td>Latitude: 25.120440 </td></tr>
+<tr><td>Altitude: 331.365 ft </td></tr>
+<tr><td>Heading: 308.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542480</longitude>
+              <latitude>25.120440</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542480,25.120440,101.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-60</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542350 </td></tr>
+<tr><td>Latitude: 25.120490 </td></tr>
+<tr><td>Altitude: 335.860 ft </td></tr>
+<tr><td>Heading: 293.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542350</longitude>
+              <latitude>25.120490</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542350,25.120490,102.37</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-61</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542190 </td></tr>
+<tr><td>Latitude: 25.120510 </td></tr>
+<tr><td>Altitude: 344.357 ft </td></tr>
+<tr><td>Heading: 277.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542190</longitude>
+              <latitude>25.120510</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542190,25.120510,104.96</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-62</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542040 </td></tr>
+<tr><td>Latitude: 25.120580 </td></tr>
+<tr><td>Altitude: 353.051 ft </td></tr>
+<tr><td>Heading: 297.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542040</longitude>
+              <latitude>25.120580</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542040,25.120580,107.61</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-63</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541510 </td></tr>
+<tr><td>Latitude: 25.121230 </td></tr>
+<tr><td>Altitude: 396.982 ft </td></tr>
+<tr><td>Heading: 323.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541510</longitude>
+              <latitude>25.121230</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541510,25.121230,121.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-64</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541380 </td></tr>
+<tr><td>Latitude: 25.121590 </td></tr>
+<tr><td>Altitude: 420.276 ft </td></tr>
+<tr><td>Heading: 341.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541380</longitude>
+              <latitude>25.121590</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541380,25.121590,128.10</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-65</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541320 </td></tr>
+<tr><td>Latitude: 25.121910 </td></tr>
+<tr><td>Altitude: 434.088 ft </td></tr>
+<tr><td>Heading: 350.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541320</longitude>
+              <latitude>25.121910</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541320,25.121910,132.31</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-66</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541340 </td></tr>
+<tr><td>Latitude: 25.122140 </td></tr>
+<tr><td>Altitude: 442.782 ft </td></tr>
+<tr><td>Heading: 4.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541340</longitude>
+              <latitude>25.122140</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541340,25.122140,134.96</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-67</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541320 </td></tr>
+<tr><td>Latitude: 25.122200 </td></tr>
+<tr><td>Altitude: 447.671 ft </td></tr>
+<tr><td>Heading: 343.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541320</longitude>
+              <latitude>25.122200</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541320,25.122200,136.45</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-68</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541140 </td></tr>
+<tr><td>Latitude: 25.122460 </td></tr>
+<tr><td>Altitude: 462.598 ft </td></tr>
+<tr><td>Heading: 327.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541140</longitude>
+              <latitude>25.122460</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541140,25.122460,141.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-69</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540960 </td></tr>
+<tr><td>Latitude: 25.122930 </td></tr>
+<tr><td>Altitude: 486.253 ft </td></tr>
+<tr><td>Heading: 340.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540960</longitude>
+              <latitude>25.122930</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540960,25.122930,148.21</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-70</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540930 </td></tr>
+<tr><td>Latitude: 25.123160 </td></tr>
+<tr><td>Altitude: 498.852 ft </td></tr>
+<tr><td>Heading: 353.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540930</longitude>
+              <latitude>25.123160</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540930,25.123160,152.05</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-71</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540980 </td></tr>
+<tr><td>Latitude: 25.123730 </td></tr>
+<tr><td>Altitude: 516.371 ft </td></tr>
+<tr><td>Heading: 4.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540980</longitude>
+              <latitude>25.123730</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540980,25.123730,157.39</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-72</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540970 </td></tr>
+<tr><td>Latitude: 25.123920 </td></tr>
+<tr><td>Altitude: 522.375 ft </td></tr>
+<tr><td>Heading: 357.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540970</longitude>
+              <latitude>25.123920</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540970,25.123920,159.22</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-73</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540900 </td></tr>
+<tr><td>Latitude: 25.124140 </td></tr>
+<tr><td>Altitude: 526.280 ft </td></tr>
+<tr><td>Heading: 343.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540900</longitude>
+              <latitude>25.124140</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540900,25.124140,160.41</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-74</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540830 </td></tr>
+<tr><td>Latitude: 25.124530 </td></tr>
+<tr><td>Altitude: 537.402 ft </td></tr>
+<tr><td>Heading: 350.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540830</longitude>
+              <latitude>25.124530</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540830,25.124530,163.80</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-75</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540850 </td></tr>
+<tr><td>Latitude: 25.125140 </td></tr>
+<tr><td>Altitude: 553.871 ft </td></tr>
+<tr><td>Heading: 1.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540850</longitude>
+              <latitude>25.125140</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540850,25.125140,168.82</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-76</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540710 </td></tr>
+<tr><td>Latitude: 25.125630 </td></tr>
+<tr><td>Altitude: 565.748 ft </td></tr>
+<tr><td>Heading: 345.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540710</longitude>
+              <latitude>25.125630</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540710,25.125630,172.44</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-77</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540600 </td></tr>
+<tr><td>Latitude: 25.125790 </td></tr>
+<tr><td>Altitude: 569.193 ft </td></tr>
+<tr><td>Heading: 328.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540600</longitude>
+              <latitude>25.125790</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540600,25.125790,173.49</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-78</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540470 </td></tr>
+<tr><td>Latitude: 25.125790 </td></tr>
+<tr><td>Altitude: 573.360 ft </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540470</longitude>
+              <latitude>25.125790</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540470,25.125790,174.76</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-79</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540220 </td></tr>
+<tr><td>Latitude: 25.125530 </td></tr>
+<tr><td>Altitude: 580.315 ft </td></tr>
+<tr><td>Heading: 221.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540220</longitude>
+              <latitude>25.125530</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540220,25.125530,176.88</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-80</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539720 </td></tr>
+<tr><td>Latitude: 25.125450 </td></tr>
+<tr><td>Altitude: 586.614 ft </td></tr>
+<tr><td>Heading: 260.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539720</longitude>
+              <latitude>25.125450</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539720,25.125450,178.80</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-81</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539410 </td></tr>
+<tr><td>Latitude: 25.125350 </td></tr>
+<tr><td>Altitude: 596.293 ft </td></tr>
+<tr><td>Heading: 250.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539410</longitude>
+              <latitude>25.125350</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539410,25.125350,181.75</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-82</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539240 </td></tr>
+<tr><td>Latitude: 25.125400 </td></tr>
+<tr><td>Altitude: 600.262 ft </td></tr>
+<tr><td>Heading: 288.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539240</longitude>
+              <latitude>25.125400</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539240,25.125400,182.96</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-83</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539170 </td></tr>
+<tr><td>Latitude: 25.125510 </td></tr>
+<tr><td>Altitude: 602.067 ft </td></tr>
+<tr><td>Heading: 330.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539170</longitude>
+              <latitude>25.125510</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539170,25.125510,183.51</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-84</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539330 </td></tr>
+<tr><td>Latitude: 25.125860 </td></tr>
+<tr><td>Altitude: 606.988 ft </td></tr>
+<tr><td>Heading: 22.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539330</longitude>
+              <latitude>25.125860</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539330,25.125860,185.01</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-85</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539520 </td></tr>
+<tr><td>Latitude: 25.126130 </td></tr>
+<tr><td>Altitude: 617.881 ft </td></tr>
+<tr><td>Heading: 32.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539520</longitude>
+              <latitude>25.126130</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539520,25.126130,188.33</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-86</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540090 </td></tr>
+<tr><td>Latitude: 25.126420 </td></tr>
+<tr><td>Altitude: 628.445 ft </td></tr>
+<tr><td>Heading: 60.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540090</longitude>
+              <latitude>25.126420</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540090,25.126420,191.55</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-87</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540290 </td></tr>
+<tr><td>Latitude: 25.126610 </td></tr>
+<tr><td>Altitude: 628.346 ft </td></tr>
+<tr><td>Heading: 43.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540290</longitude>
+              <latitude>25.126610</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540290,25.126610,191.52</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-88</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540510 </td></tr>
+<tr><td>Latitude: 25.126930 </td></tr>
+<tr><td>Altitude: 629.790 ft </td></tr>
+<tr><td>Heading: 31.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540510</longitude>
+              <latitude>25.126930</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540510,25.126930,191.96</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-89</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540720 </td></tr>
+<tr><td>Latitude: 25.127080 </td></tr>
+<tr><td>Altitude: 632.087 ft </td></tr>
+<tr><td>Heading: 51.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540720</longitude>
+              <latitude>25.127080</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540720,25.127080,192.66</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-90</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541070 </td></tr>
+<tr><td>Latitude: 25.127200 </td></tr>
+<tr><td>Altitude: 639.370 ft </td></tr>
+<tr><td>Heading: 69.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541070</longitude>
+              <latitude>25.127200</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541070,25.127200,194.88</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-91</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541060 </td></tr>
+<tr><td>Latitude: 25.127200 </td></tr>
+<tr><td>Altitude: 638.944 ft </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541060</longitude>
+              <latitude>25.127200</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541060,25.127200,194.75</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-92</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541350 </td></tr>
+<tr><td>Latitude: 25.127370 </td></tr>
+<tr><td>Altitude: 648.688 ft </td></tr>
+<tr><td>Heading: 57.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541350</longitude>
+              <latitude>25.127370</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541350,25.127370,197.72</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-93</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541570 </td></tr>
+<tr><td>Latitude: 25.127380 </td></tr>
+<tr><td>Altitude: 659.646 ft </td></tr>
+<tr><td>Heading: 87.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541570</longitude>
+              <latitude>25.127380</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541570,25.127380,201.06</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-94</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541740 </td></tr>
+<tr><td>Latitude: 25.127330 </td></tr>
+<tr><td>Altitude: 664.633 ft </td></tr>
+<tr><td>Heading: 108.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541740</longitude>
+              <latitude>25.127330</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541740,25.127330,202.58</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-95</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541850 </td></tr>
+<tr><td>Latitude: 25.127200 </td></tr>
+<tr><td>Altitude: 674.377 ft </td></tr>
+<tr><td>Heading: 142.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541850</longitude>
+              <latitude>25.127200</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541850,25.127200,205.55</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-96</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541900 </td></tr>
+<tr><td>Latitude: 25.127080 </td></tr>
+<tr><td>Altitude: 681.824 ft </td></tr>
+<tr><td>Heading: 159.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541900</longitude>
+              <latitude>25.127080</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541900,25.127080,207.82</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-97</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542070 </td></tr>
+<tr><td>Latitude: 25.126890 </td></tr>
+<tr><td>Altitude: 692.552 ft </td></tr>
+<tr><td>Heading: 141.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542070</longitude>
+              <latitude>25.126890</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542070,25.126890,211.09</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-98</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542220 </td></tr>
+<tr><td>Latitude: 25.126800 </td></tr>
+<tr><td>Altitude: 702.067 ft </td></tr>
+<tr><td>Heading: 123.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542220</longitude>
+              <latitude>25.126800</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542220,25.126800,213.99</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-99</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542350 </td></tr>
+<tr><td>Latitude: 25.126850 </td></tr>
+<tr><td>Altitude: 705.020 ft </td></tr>
+<tr><td>Heading: 67.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542350</longitude>
+              <latitude>25.126850</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542350,25.126850,214.89</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-100</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542390 </td></tr>
+<tr><td>Latitude: 25.126970 </td></tr>
+<tr><td>Altitude: 709.088 ft </td></tr>
+<tr><td>Heading: 16.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542390</longitude>
+              <latitude>25.126970</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542390,25.126970,216.13</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-101</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542300 </td></tr>
+<tr><td>Latitude: 25.127170 </td></tr>
+<tr><td>Altitude: 714.600 ft </td></tr>
+<tr><td>Heading: 337.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542300</longitude>
+              <latitude>25.127170</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542300,25.127170,217.81</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-102</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542160 </td></tr>
+<tr><td>Latitude: 25.127340 </td></tr>
+<tr><td>Altitude: 719.751 ft </td></tr>
+<tr><td>Heading: 323.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542160</longitude>
+              <latitude>25.127340</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542160,25.127340,219.38</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-103</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.542070 </td></tr>
+<tr><td>Latitude: 25.127650 </td></tr>
+<tr><td>Altitude: 725.656 ft </td></tr>
+<tr><td>Heading: 345.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.542070</longitude>
+              <latitude>25.127650</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.542070,25.127650,221.18</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-104</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541980 </td></tr>
+<tr><td>Latitude: 25.127710 </td></tr>
+<tr><td>Altitude: 726.739 ft </td></tr>
+<tr><td>Heading: 306.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541980</longitude>
+              <latitude>25.127710</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541980,25.127710,221.51</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-105</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.541140 </td></tr>
+<tr><td>Latitude: 25.127870 </td></tr>
+<tr><td>Altitude: 736.352 ft </td></tr>
+<tr><td>Heading: 281.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.541140</longitude>
+              <latitude>25.127870</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.541140,25.127870,224.44</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-106</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540960 </td></tr>
+<tr><td>Latitude: 25.127860 </td></tr>
+<tr><td>Altitude: 738.714 ft </td></tr>
+<tr><td>Heading: 266.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540960</longitude>
+              <latitude>25.127860</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540960,25.127860,225.16</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-107</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540650 </td></tr>
+<tr><td>Latitude: 25.127940 </td></tr>
+<tr><td>Altitude: 751.280 ft </td></tr>
+<tr><td>Heading: 285.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540650</longitude>
+              <latitude>25.127940</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540650,25.127940,228.99</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-108</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540560 </td></tr>
+<tr><td>Latitude: 25.128010 </td></tr>
+<tr><td>Altitude: 755.052 ft </td></tr>
+<tr><td>Heading: 310.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540560</longitude>
+              <latitude>25.128010</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540560,25.128010,230.14</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-109</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540070 </td></tr>
+<tr><td>Latitude: 25.128650 </td></tr>
+<tr><td>Altitude: 805.118 ft </td></tr>
+<tr><td>Heading: 325.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540070</longitude>
+              <latitude>25.128650</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540070,25.128650,245.40</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-110</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539990 </td></tr>
+<tr><td>Latitude: 25.128770 </td></tr>
+<tr><td>Altitude: 808.301 ft </td></tr>
+<tr><td>Heading: 328.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539990</longitude>
+              <latitude>25.128770</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539990,25.128770,246.37</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-111</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539940 </td></tr>
+<tr><td>Latitude: 25.128920 </td></tr>
+<tr><td>Altitude: 816.568 ft </td></tr>
+<tr><td>Heading: 343.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539940</longitude>
+              <latitude>25.128920</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539940,25.128920,248.89</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-112</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539960 </td></tr>
+<tr><td>Latitude: 25.129130 </td></tr>
+<tr><td>Altitude: 825.656 ft </td></tr>
+<tr><td>Heading: 4.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539960</longitude>
+              <latitude>25.129130</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539960,25.129130,251.66</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-113</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540020 </td></tr>
+<tr><td>Latitude: 25.129350 </td></tr>
+<tr><td>Altitude: 835.302 ft </td></tr>
+<tr><td>Heading: 13.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540020</longitude>
+              <latitude>25.129350</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540020,25.129350,254.60</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-114</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539960 </td></tr>
+<tr><td>Latitude: 25.129670 </td></tr>
+<tr><td>Altitude: 847.441 ft </td></tr>
+<tr><td>Heading: 350.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539960</longitude>
+              <latitude>25.129670</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539960,25.129670,258.30</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-115</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540080 </td></tr>
+<tr><td>Latitude: 25.129860 </td></tr>
+<tr><td>Altitude: 857.185 ft </td></tr>
+<tr><td>Heading: 29.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540080</longitude>
+              <latitude>25.129860</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540080,25.129860,261.27</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-116</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540060 </td></tr>
+<tr><td>Latitude: 25.130060 </td></tr>
+<tr><td>Altitude: 863.714 ft </td></tr>
+<tr><td>Heading: 354.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540060</longitude>
+              <latitude>25.130060</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540060,25.130060,263.26</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-117</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.540010 </td></tr>
+<tr><td>Latitude: 25.130220 </td></tr>
+<tr><td>Altitude: 869.455 ft </td></tr>
+<tr><td>Heading: 344.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.540010</longitude>
+              <latitude>25.130220</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.540010,25.130220,265.01</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-118</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539780 </td></tr>
+<tr><td>Latitude: 25.130650 </td></tr>
+<tr><td>Altitude: 891.470 ft </td></tr>
+<tr><td>Heading: 334.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539780</longitude>
+              <latitude>25.130650</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539780,25.130650,271.72</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-119</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539710 </td></tr>
+<tr><td>Latitude: 25.130680 </td></tr>
+<tr><td>Altitude: 897.146 ft </td></tr>
+<tr><td>Heading: 295.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539710</longitude>
+              <latitude>25.130680</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539710,25.130680,273.45</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-120</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539590 </td></tr>
+<tr><td>Latitude: 25.130660 </td></tr>
+<tr><td>Altitude: 900.623 ft </td></tr>
+<tr><td>Heading: 259.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539590</longitude>
+              <latitude>25.130660</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539590,25.130660,274.51</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-121</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539340 </td></tr>
+<tr><td>Latitude: 25.130460 </td></tr>
+<tr><td>Altitude: 909.908 ft </td></tr>
+<tr><td>Heading: 228.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539340</longitude>
+              <latitude>25.130460</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539340,25.130460,277.34</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-122</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539230 </td></tr>
+<tr><td>Latitude: 25.130410 </td></tr>
+<tr><td>Altitude: 916.175 ft </td></tr>
+<tr><td>Heading: 243.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539230</longitude>
+              <latitude>25.130410</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539230,25.130410,279.25</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-123</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539120 </td></tr>
+<tr><td>Latitude: 25.130470 </td></tr>
+<tr><td>Altitude: 916.175 ft </td></tr>
+<tr><td>Heading: 301.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539120</longitude>
+              <latitude>25.130470</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539120,25.130470,279.25</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-124</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539060 </td></tr>
+<tr><td>Latitude: 25.130680 </td></tr>
+<tr><td>Altitude: 920.341 ft </td></tr>
+<tr><td>Heading: 345.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539060</longitude>
+              <latitude>25.130680</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539060,25.130680,280.52</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-125</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538970 </td></tr>
+<tr><td>Latitude: 25.130840 </td></tr>
+<tr><td>Altitude: 923.589 ft </td></tr>
+<tr><td>Heading: 333.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538970</longitude>
+              <latitude>25.130840</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538970,25.130840,281.51</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-126</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538570 </td></tr>
+<tr><td>Latitude: 25.131245 </td></tr>
+<tr><td>Altitude: 932.612 ft </td></tr>
+<tr><td>Heading: 318.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538570</longitude>
+              <latitude>25.131245</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538570,25.131245,284.26</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-127</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538170 </td></tr>
+<tr><td>Latitude: 25.131650 </td></tr>
+<tr><td>Altitude: 940.223 ft </td></tr>
+<tr><td>Heading: 318.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538170</longitude>
+              <latitude>25.131650</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538170,25.131650,286.58</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-128</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.537520 </td></tr>
+<tr><td>Latitude: 25.132190 </td></tr>
+<tr><td>Altitude: 949.705 ft </td></tr>
+<tr><td>Heading: 312.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.537520</longitude>
+              <latitude>25.132190</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.537520,25.132190,289.47</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-129</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.537160 </td></tr>
+<tr><td>Latitude: 25.132280 </td></tr>
+<tr><td>Altitude: 956.693 ft </td></tr>
+<tr><td>Heading: 285.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.537160</longitude>
+              <latitude>25.132280</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.537160,25.132280,291.60</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-130</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536680 </td></tr>
+<tr><td>Latitude: 25.132720 </td></tr>
+<tr><td>Altitude: 979.692 ft </td></tr>
+<tr><td>Heading: 315.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536680</longitude>
+              <latitude>25.132720</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536680,25.132720,298.61</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-131</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536200 </td></tr>
+<tr><td>Latitude: 25.133160 </td></tr>
+<tr><td>Altitude: 1001.083 ft </td></tr>
+<tr><td>Heading: 315.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536200</longitude>
+              <latitude>25.133160</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536200,25.133160,305.13</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-132</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536140 </td></tr>
+<tr><td>Latitude: 25.133320 </td></tr>
+<tr><td>Altitude: 1002.231 ft </td></tr>
+<tr><td>Heading: 341.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536140</longitude>
+              <latitude>25.133320</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536140,25.133320,305.48</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-133</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536100 </td></tr>
+<tr><td>Latitude: 25.133560 </td></tr>
+<tr><td>Altitude: 1003.150 ft </td></tr>
+<tr><td>Heading: 351.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536100</longitude>
+              <latitude>25.133560</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536100,25.133560,305.76</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-134</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536010 </td></tr>
+<tr><td>Latitude: 25.133640 </td></tr>
+<tr><td>Altitude: 1006.529 ft </td></tr>
+<tr><td>Heading: 314.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536010</longitude>
+              <latitude>25.133640</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536010,25.133640,306.79</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-135</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.535720 </td></tr>
+<tr><td>Latitude: 25.133690 </td></tr>
+<tr><td>Altitude: 1014.928 ft </td></tr>
+<tr><td>Heading: 280.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.535720</longitude>
+              <latitude>25.133690</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.535720,25.133690,309.35</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-136</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.535670 </td></tr>
+<tr><td>Latitude: 25.133730 </td></tr>
+<tr><td>Altitude: 1018.077 ft </td></tr>
+<tr><td>Heading: 311.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.535670</longitude>
+              <latitude>25.133730</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.535670,25.133730,310.31</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-137</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.535660 </td></tr>
+<tr><td>Latitude: 25.133770 </td></tr>
+<tr><td>Altitude: 1018.077 ft </td></tr>
+<tr><td>Heading: 347.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.535660</longitude>
+              <latitude>25.133770</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.535660,25.133770,310.31</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-138</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.535690 </td></tr>
+<tr><td>Latitude: 25.133810 </td></tr>
+<tr><td>Altitude: 1018.077 ft </td></tr>
+<tr><td>Heading: 34.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.535690</longitude>
+              <latitude>25.133810</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.535690,25.133810,310.31</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-139</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536100 </td></tr>
+<tr><td>Latitude: 25.133930 </td></tr>
+<tr><td>Altitude: 1027.756 ft </td></tr>
+<tr><td>Heading: 72.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536100</longitude>
+              <latitude>25.133930</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536100,25.133930,313.26</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-140</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536130 </td></tr>
+<tr><td>Latitude: 25.134010 </td></tr>
+<tr><td>Altitude: 1036.844 ft </td></tr>
+<tr><td>Heading: 18.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536130</longitude>
+              <latitude>25.134010</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536130,25.134010,316.03</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-141</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536050 </td></tr>
+<tr><td>Latitude: 25.134060 </td></tr>
+<tr><td>Altitude: 1050.656 ft </td></tr>
+<tr><td>Heading: 304.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536050</longitude>
+              <latitude>25.134060</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536050,25.134060,320.24</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-142</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.535800 </td></tr>
+<tr><td>Latitude: 25.134150 </td></tr>
+<tr><td>Altitude: 1051.936 ft </td></tr>
+<tr><td>Heading: 291.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.535800</longitude>
+              <latitude>25.134150</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.535800,25.134150,320.63</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-143</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.535630 </td></tr>
+<tr><td>Latitude: 25.134250 </td></tr>
+<tr><td>Altitude: 1049.967 ft </td></tr>
+<tr><td>Heading: 303.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.535630</longitude>
+              <latitude>25.134250</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.535630,25.134250,320.03</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-144</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.535400 </td></tr>
+<tr><td>Latitude: 25.134430 </td></tr>
+<tr><td>Altitude: 1068.570 ft </td></tr>
+<tr><td>Heading: 310.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.535400</longitude>
+              <latitude>25.134430</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.535400,25.134430,325.70</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-145</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.535280 </td></tr>
+<tr><td>Latitude: 25.134600 </td></tr>
+<tr><td>Altitude: 1080.577 ft </td></tr>
+<tr><td>Heading: 327.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.535280</longitude>
+              <latitude>25.134600</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.535280,25.134600,329.36</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-146</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.535120 </td></tr>
+<tr><td>Latitude: 25.134890 </td></tr>
+<tr><td>Altitude: 1096.949 ft </td></tr>
+<tr><td>Heading: 333.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.535120</longitude>
+              <latitude>25.134890</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.535120,25.134890,334.35</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-147</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.535230 </td></tr>
+<tr><td>Latitude: 25.134930 </td></tr>
+<tr><td>Altitude: 1103.675 ft </td></tr>
+<tr><td>Heading: 68.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.535230</longitude>
+              <latitude>25.134930</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.535230,25.134930,336.40</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-148</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.535310 </td></tr>
+<tr><td>Latitude: 25.134920 </td></tr>
+<tr><td>Altitude: 1106.824 ft </td></tr>
+<tr><td>Heading: 97.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.535310</longitude>
+              <latitude>25.134920</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.535310,25.134920,337.36</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-149</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.535920 </td></tr>
+<tr><td>Latitude: 25.134590 </td></tr>
+<tr><td>Altitude: 1131.660 ft </td></tr>
+<tr><td>Heading: 120.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.535920</longitude>
+              <latitude>25.134590</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.535920,25.134590,344.93</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-150</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536070 </td></tr>
+<tr><td>Latitude: 25.134570 </td></tr>
+<tr><td>Altitude: 1134.186 ft </td></tr>
+<tr><td>Heading: 98.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536070</longitude>
+              <latitude>25.134570</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536070,25.134570,345.70</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-151</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536300 </td></tr>
+<tr><td>Latitude: 25.134610 </td></tr>
+<tr><td>Altitude: 1136.745 ft </td></tr>
+<tr><td>Heading: 79.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536300</longitude>
+              <latitude>25.134610</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536300,25.134610,346.48</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-152</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536450 </td></tr>
+<tr><td>Latitude: 25.134580 </td></tr>
+<tr><td>Altitude: 1137.041 ft </td></tr>
+<tr><td>Heading: 102.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536450</longitude>
+              <latitude>25.134580</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536450,25.134580,346.57</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-153</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536570 </td></tr>
+<tr><td>Latitude: 25.134520 </td></tr>
+<tr><td>Altitude: 1137.041 ft </td></tr>
+<tr><td>Heading: 118.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536570</longitude>
+              <latitude>25.134520</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536570,25.134520,346.57</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-154</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536770 </td></tr>
+<tr><td>Latitude: 25.134340 </td></tr>
+<tr><td>Altitude: 1136.647 ft </td></tr>
+<tr><td>Heading: 134.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536770</longitude>
+              <latitude>25.134340</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536770,25.134340,346.45</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-155</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.536940 </td></tr>
+<tr><td>Latitude: 25.134130 </td></tr>
+<tr><td>Altitude: 1136.581 ft </td></tr>
+<tr><td>Heading: 143.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.536940</longitude>
+              <latitude>25.134130</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.536940,25.134130,346.43</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-156</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.537040 </td></tr>
+<tr><td>Latitude: 25.133940 </td></tr>
+<tr><td>Altitude: 1136.581 ft </td></tr>
+<tr><td>Heading: 154.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.537040</longitude>
+              <latitude>25.133940</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.537040,25.133940,346.43</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-157</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.537100 </td></tr>
+<tr><td>Latitude: 25.133870 </td></tr>
+<tr><td>Altitude: 1136.549 ft </td></tr>
+<tr><td>Heading: 142.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.537100</longitude>
+              <latitude>25.133870</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.537100,25.133870,346.42</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-158</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.537120 </td></tr>
+<tr><td>Latitude: 25.133800 </td></tr>
+<tr><td>Altitude: 1136.549 ft </td></tr>
+<tr><td>Heading: 165.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.537120</longitude>
+              <latitude>25.133800</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.537120,25.133800,346.42</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-159</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.537250 </td></tr>
+<tr><td>Latitude: 25.133640 </td></tr>
+<tr><td>Altitude: 1136.549 ft </td></tr>
+<tr><td>Heading: 143.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.537250</longitude>
+              <latitude>25.133640</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.537250,25.133640,346.42</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-160</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.537620 </td></tr>
+<tr><td>Latitude: 25.133440 </td></tr>
+<tr><td>Altitude: 1138.517 ft </td></tr>
+<tr><td>Heading: 120.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.537620</longitude>
+              <latitude>25.133440</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.537620,25.133440,347.02</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-161</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538050 </td></tr>
+<tr><td>Latitude: 25.133310 </td></tr>
+<tr><td>Altitude: 1150.262 ft </td></tr>
+<tr><td>Heading: 108.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538050</longitude>
+              <latitude>25.133310</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538050,25.133310,350.60</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-162</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538250 </td></tr>
+<tr><td>Latitude: 25.133310 </td></tr>
+<tr><td>Altitude: 1157.480 ft </td></tr>
+<tr><td>Heading: 90.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538250</longitude>
+              <latitude>25.133310</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538250,25.133310,352.80</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-163</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538500 </td></tr>
+<tr><td>Latitude: 25.133220 </td></tr>
+<tr><td>Altitude: 1170.276 ft </td></tr>
+<tr><td>Heading: 111.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538500</longitude>
+              <latitude>25.133220</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538500,25.133220,356.70</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-164</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538580 </td></tr>
+<tr><td>Latitude: 25.133240 </td></tr>
+<tr><td>Altitude: 1177.657 ft </td></tr>
+<tr><td>Heading: 74.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538580</longitude>
+              <latitude>25.133240</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538580,25.133240,358.95</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-165</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538600 </td></tr>
+<tr><td>Latitude: 25.133300 </td></tr>
+<tr><td>Altitude: 1177.657 ft </td></tr>
+<tr><td>Heading: 16.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538600</longitude>
+              <latitude>25.133300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538600,25.133300,358.95</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-166</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538570 </td></tr>
+<tr><td>Latitude: 25.133350 </td></tr>
+<tr><td>Altitude: 1181.168 ft </td></tr>
+<tr><td>Heading: 331.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538570</longitude>
+              <latitude>25.133350</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538570,25.133350,360.02</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-167</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538200 </td></tr>
+<tr><td>Latitude: 25.133570 </td></tr>
+<tr><td>Altitude: 1194.423 ft </td></tr>
+<tr><td>Heading: 303.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538200</longitude>
+              <latitude>25.133570</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538200,25.133570,364.06</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-168</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538160 </td></tr>
+<tr><td>Latitude: 25.133640 </td></tr>
+<tr><td>Altitude: 1195.997 ft </td></tr>
+<tr><td>Heading: 332.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538160</longitude>
+              <latitude>25.133640</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538160,25.133640,364.54</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-169</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538160 </td></tr>
+<tr><td>Latitude: 25.133710 </td></tr>
+<tr><td>Altitude: 1197.900 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538160</longitude>
+              <latitude>25.133710</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538160,25.133710,365.12</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-170</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538190 </td></tr>
+<tr><td>Latitude: 25.133750 </td></tr>
+<tr><td>Altitude: 1199.934 ft </td></tr>
+<tr><td>Heading: 34.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538190</longitude>
+              <latitude>25.133750</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538190,25.133750,365.74</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-171</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538230 </td></tr>
+<tr><td>Latitude: 25.133760 </td></tr>
+<tr><td>Altitude: 1199.934 ft </td></tr>
+<tr><td>Heading: 74.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538230</longitude>
+              <latitude>25.133760</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538230,25.133760,365.74</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-172</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538400 </td></tr>
+<tr><td>Latitude: 25.133660 </td></tr>
+<tr><td>Altitude: 1209.482 ft </td></tr>
+<tr><td>Heading: 123.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538400</longitude>
+              <latitude>25.133660</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538400,25.133660,368.65</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-173</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538630 </td></tr>
+<tr><td>Latitude: 25.133630 </td></tr>
+<tr><td>Altitude: 1225.131 ft </td></tr>
+<tr><td>Heading: 98.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538630</longitude>
+              <latitude>25.133630</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538630,25.133630,373.42</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-174</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538810 </td></tr>
+<tr><td>Latitude: 25.133660 </td></tr>
+<tr><td>Altitude: 1228.182 ft </td></tr>
+<tr><td>Heading: 79.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538810</longitude>
+              <latitude>25.133660</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538810,25.133660,374.35</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-175</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539220 </td></tr>
+<tr><td>Latitude: 25.133640 </td></tr>
+<tr><td>Altitude: 1242.552 ft </td></tr>
+<tr><td>Heading: 93.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539220</longitude>
+              <latitude>25.133640</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539220,25.133640,378.73</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-176</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539240 </td></tr>
+<tr><td>Latitude: 25.133690 </td></tr>
+<tr><td>Altitude: 1244.849 ft </td></tr>
+<tr><td>Heading: 19.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539240</longitude>
+              <latitude>25.133690</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539240,25.133690,379.43</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-177</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539210 </td></tr>
+<tr><td>Latitude: 25.133730 </td></tr>
+<tr><td>Altitude: 1249.049 ft </td></tr>
+<tr><td>Heading: 325.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539210</longitude>
+              <latitude>25.133730</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539210,25.133730,380.71</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-178</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539110 </td></tr>
+<tr><td>Latitude: 25.133790 </td></tr>
+<tr><td>Altitude: 1249.049 ft </td></tr>
+<tr><td>Heading: 303.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539110</longitude>
+              <latitude>25.133790</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539110,25.133790,380.71</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-179</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538810 </td></tr>
+<tr><td>Latitude: 25.133860 </td></tr>
+<tr><td>Altitude: 1256.759 ft </td></tr>
+<tr><td>Heading: 284.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538810</longitude>
+              <latitude>25.133860</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538810,25.133860,383.06</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-180</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538650 </td></tr>
+<tr><td>Latitude: 25.133940 </td></tr>
+<tr><td>Altitude: 1260.105 ft </td></tr>
+<tr><td>Heading: 298.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538650</longitude>
+              <latitude>25.133940</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538650,25.133940,384.08</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-181</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538560 </td></tr>
+<tr><td>Latitude: 25.134030 </td></tr>
+<tr><td>Altitude: 1267.028 ft </td></tr>
+<tr><td>Heading: 317.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538560</longitude>
+              <latitude>25.134030</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538560,25.134030,386.19</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-182</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538540 </td></tr>
+<tr><td>Latitude: 25.134160 </td></tr>
+<tr><td>Altitude: 1268.734 ft </td></tr>
+<tr><td>Heading: 352.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538540</longitude>
+              <latitude>25.134160</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538540,25.134160,386.71</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-183</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538600 </td></tr>
+<tr><td>Latitude: 25.134250 </td></tr>
+<tr><td>Altitude: 1275.098 ft </td></tr>
+<tr><td>Heading: 31.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538600</longitude>
+              <latitude>25.134250</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538600,25.134250,388.65</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-184</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538650 </td></tr>
+<tr><td>Latitude: 25.134280 </td></tr>
+<tr><td>Altitude: 1275.098 ft </td></tr>
+<tr><td>Heading: 56.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538650</longitude>
+              <latitude>25.134280</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538650,25.134280,388.65</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-185</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538740 </td></tr>
+<tr><td>Latitude: 25.134280 </td></tr>
+<tr><td>Altitude: 1277.493 ft </td></tr>
+<tr><td>Heading: 90.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538740</longitude>
+              <latitude>25.134280</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538740,25.134280,389.38</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-186</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.538930 </td></tr>
+<tr><td>Latitude: 25.134110 </td></tr>
+<tr><td>Altitude: 1300.820 ft </td></tr>
+<tr><td>Heading: 134.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.538930</longitude>
+              <latitude>25.134110</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.538930,25.134110,396.49</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-187</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539090 </td></tr>
+<tr><td>Latitude: 25.134040 </td></tr>
+<tr><td>Altitude: 1306.660 ft </td></tr>
+<tr><td>Heading: 115.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539090</longitude>
+              <latitude>25.134040</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539090,25.134040,398.27</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-188</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539260 </td></tr>
+<tr><td>Latitude: 25.134010 </td></tr>
+<tr><td>Altitude: 1313.320 ft </td></tr>
+<tr><td>Heading: 101.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539260</longitude>
+              <latitude>25.134010</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539260,25.134010,400.30</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-189</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539460 </td></tr>
+<tr><td>Latitude: 25.134010 </td></tr>
+<tr><td>Altitude: 1317.290 ft </td></tr>
+<tr><td>Heading: 90.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539460</longitude>
+              <latitude>25.134010</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539460,25.134010,401.51</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-190</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539670 </td></tr>
+<tr><td>Latitude: 25.134090 </td></tr>
+<tr><td>Altitude: 1323.753 ft </td></tr>
+<tr><td>Heading: 67.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539670</longitude>
+              <latitude>25.134090</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539670,25.134090,403.48</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-191</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539810 </td></tr>
+<tr><td>Latitude: 25.134200 </td></tr>
+<tr><td>Altitude: 1326.017 ft </td></tr>
+<tr><td>Heading: 49.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539810</longitude>
+              <latitude>25.134200</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539810,25.134200,404.17</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-192</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539910 </td></tr>
+<tr><td>Latitude: 25.134360 </td></tr>
+<tr><td>Altitude: 1326.969 ft </td></tr>
+<tr><td>Heading: 29.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539910</longitude>
+              <latitude>25.134360</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539910,25.134360,404.46</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-193</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539950 </td></tr>
+<tr><td>Latitude: 25.134510 </td></tr>
+<tr><td>Altitude: 1328.182 ft </td></tr>
+<tr><td>Heading: 13.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539950</longitude>
+              <latitude>25.134510</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539950,25.134510,404.83</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>單車百岳：天母上陽明山（文大後山）-194</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 121.539960 </td></tr>
+<tr><td>Latitude: 25.134660 </td></tr>
+<tr><td>Altitude: 1329.298 ft </td></tr>
+<tr><td>Heading: 3.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>121.539960</longitude>
+              <latitude>25.134660</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>121.539960,25.134660,405.17</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Placemark>
+          <name>Path</name>
+          <styleUrl>#lineStyle</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>
+121.526690,25.104170,17.86
+121.527225,25.104380,18.22
+121.527760,25.104590,18.51
+121.528140,25.104800,18.45
+121.528610,25.105160,17.15
+121.529070,25.105580,15.51
+121.529330,25.105860,16.71
+121.529800,25.106540,16.00
+121.529985,25.106960,16.02
+121.530170,25.107380,16.04
+121.530250,25.107670,15.73
+121.530380,25.108390,18.22
+121.530510,25.109110,15.89
+121.530600,25.109760,17.27
+121.530690,25.110410,23.88
+121.530780,25.111060,15.42
+121.530920,25.111850,15.10
+121.531150,25.112410,15.10
+121.531350,25.112400,14.19
+121.531920,25.112480,13.03
+121.532490,25.112560,13.25
+121.533457,25.112687,12.62
+121.534423,25.112813,13.79
+121.535390,25.112940,15.23
+121.535820,25.113040,12.93
+121.536553,25.113227,18.78
+121.537287,25.113413,11.37
+121.538020,25.113600,18.48
+121.538660,25.113770,18.98
+121.539010,25.113850,18.29
+121.539190,25.113940,18.07
+121.539140,25.114660,20.18
+121.539085,25.115535,20.00
+121.539030,25.116410,25.00
+121.539300,25.116430,29.92
+121.539490,25.116470,32.89
+121.539590,25.116540,34.35
+121.539660,25.116690,35.86
+121.539790,25.117060,41.57
+121.539750,25.117160,43.26
+121.539630,25.117320,45.68
+121.539590,25.117430,47.88
+121.539660,25.117570,50.15
+121.539740,25.117630,51.04
+121.540350,25.117920,59.80
+121.540700,25.118200,61.85
+121.541140,25.118440,65.11
+121.541560,25.118540,68.32
+121.541860,25.118560,70.55
+121.542180,25.118560,74.24
+121.542290,25.118610,75.29
+121.542430,25.118730,77.01
+121.542520,25.118900,80.78
+121.542600,25.119330,85.55
+121.542630,25.119400,87.23
+121.542830,25.119700,91.62
+121.542870,25.119790,92.72
+121.542820,25.119940,94.24
+121.542550,25.120390,100.46
+121.542480,25.120440,101.00
+121.542350,25.120490,102.37
+121.542190,25.120510,104.96
+121.542040,25.120580,107.61
+121.541510,25.121230,121.00
+121.541380,25.121590,128.10
+121.541320,25.121910,132.31
+121.541340,25.122140,134.96
+121.541320,25.122200,136.45
+121.541140,25.122460,141.00
+121.540960,25.122930,148.21
+121.540930,25.123160,152.05
+121.540980,25.123730,157.39
+121.540970,25.123920,159.22
+121.540900,25.124140,160.41
+121.540830,25.124530,163.80
+121.540850,25.125140,168.82
+121.540710,25.125630,172.44
+121.540600,25.125790,173.49
+121.540470,25.125790,174.76
+121.540220,25.125530,176.88
+121.539720,25.125450,178.80
+121.539410,25.125350,181.75
+121.539240,25.125400,182.96
+121.539170,25.125510,183.51
+121.539330,25.125860,185.01
+121.539520,25.126130,188.33
+121.540090,25.126420,191.55
+121.540290,25.126610,191.52
+121.540510,25.126930,191.96
+121.540720,25.127080,192.66
+121.541070,25.127200,194.88
+121.541060,25.127200,194.75
+121.541350,25.127370,197.72
+121.541570,25.127380,201.06
+121.541740,25.127330,202.58
+121.541850,25.127200,205.55
+121.541900,25.127080,207.82
+121.542070,25.126890,211.09
+121.542220,25.126800,213.99
+121.542350,25.126850,214.89
+121.542390,25.126970,216.13
+121.542300,25.127170,217.81
+121.542160,25.127340,219.38
+121.542070,25.127650,221.18
+121.541980,25.127710,221.51
+121.541140,25.127870,224.44
+121.540960,25.127860,225.16
+121.540650,25.127940,228.99
+121.540560,25.128010,230.14
+121.540070,25.128650,245.40
+121.539990,25.128770,246.37
+121.539940,25.128920,248.89
+121.539960,25.129130,251.66
+121.540020,25.129350,254.60
+121.539960,25.129670,258.30
+121.540080,25.129860,261.27
+121.540060,25.130060,263.26
+121.540010,25.130220,265.01
+121.539780,25.130650,271.72
+121.539710,25.130680,273.45
+121.539590,25.130660,274.51
+121.539340,25.130460,277.34
+121.539230,25.130410,279.25
+121.539120,25.130470,279.25
+121.539060,25.130680,280.52
+121.538970,25.130840,281.51
+121.538570,25.131245,284.26
+121.538170,25.131650,286.58
+121.537520,25.132190,289.47
+121.537160,25.132280,291.60
+121.536680,25.132720,298.61
+121.536200,25.133160,305.13
+121.536140,25.133320,305.48
+121.536100,25.133560,305.76
+121.536010,25.133640,306.79
+121.535720,25.133690,309.35
+121.535670,25.133730,310.31
+121.535660,25.133770,310.31
+121.535690,25.133810,310.31
+121.536100,25.133930,313.26
+121.536130,25.134010,316.03
+121.536050,25.134060,320.24
+121.535800,25.134150,320.63
+121.535630,25.134250,320.03
+121.535400,25.134430,325.70
+121.535280,25.134600,329.36
+121.535120,25.134890,334.35
+121.535230,25.134930,336.40
+121.535310,25.134920,337.36
+121.535920,25.134590,344.93
+121.536070,25.134570,345.70
+121.536300,25.134610,346.48
+121.536450,25.134580,346.57
+121.536570,25.134520,346.57
+121.536770,25.134340,346.45
+121.536940,25.134130,346.43
+121.537040,25.133940,346.43
+121.537100,25.133870,346.42
+121.537120,25.133800,346.42
+121.537250,25.133640,346.42
+121.537620,25.133440,347.02
+121.538050,25.133310,350.60
+121.538250,25.133310,352.80
+121.538500,25.133220,356.70
+121.538580,25.133240,358.95
+121.538600,25.133300,358.95
+121.538570,25.133350,360.02
+121.538200,25.133570,364.06
+121.538160,25.133640,364.54
+121.538160,25.133710,365.12
+121.538190,25.133750,365.74
+121.538230,25.133760,365.74
+121.538400,25.133660,368.65
+121.538630,25.133630,373.42
+121.538810,25.133660,374.35
+121.539220,25.133640,378.73
+121.539240,25.133690,379.43
+121.539210,25.133730,380.71
+121.539110,25.133790,380.71
+121.538810,25.133860,383.06
+121.538650,25.133940,384.08
+121.538560,25.134030,386.19
+121.538540,25.134160,386.71
+121.538600,25.134250,388.65
+121.538650,25.134280,388.65
+121.538740,25.134280,389.38
+121.538930,25.134110,396.49
+121.539090,25.134040,398.27
+121.539260,25.134010,400.30
+121.539460,25.134010,401.51
+121.539670,25.134090,403.48
+121.539810,25.134200,404.17
+121.539910,25.134360,404.46
+121.539950,25.134510,404.83
+121.539960,25.134660,405.17
+</coordinates>
+          </LineString>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>
